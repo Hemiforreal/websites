@@ -1,0 +1,94 @@
+.status-line{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background-color: rgb(32, 32, 32);
+    z-index: 1;
+}
+.status-line-left{
+    align-content: center;
+    margin-left: 4px;
+    width: 250px;
+}
+.previous , .next{
+    height: 16px;
+    margin: 15px 24px 10px 11px;
+}
+.pause{
+    height: 32px;
+    margin-bottom: 2px;
+    padding: 0 16px 0 4px;
+}
+.song-timer{
+    color: rgb(155, 153, 153);
+    font-family: robotic , Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    top: -14px;
+    left: -14px;
+    position: relative;
+}
+.status-line-middle{
+  align-content: center;
+  width: 400px;
+  margin: 0 0 0 100px;
+  position: relative;
+}
+.recent-song-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mini-cover{
+  height: 34px;
+  border-radius: 2px;
+}
+.mini-info{
+  display: block;
+  line-height: 4px;
+  margin: 0 0 2px 14px;
+}
+.mini-song , .mini-song-info{
+  font-size: 11px;
+  font-family: robotic , arial;
+  font-weight: 700;
+}
+.mini-song{
+  color: whitesmoke;
+}
+.mini-song-info{
+  color: rgb(182, 181, 181);
+}
+.recent-song-buttons{
+  position: absolute;
+  align-content: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 210px;
+}
+.like , .dislike , .more1{
+  height: 18px;
+  margin-right: 10px;
+}
+.more1{
+  position: relative;
+  left: 20px;
+}
+.status-line-right{
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  align-content: center;
+}
+.sound , .repeat , .shuffle , .player-page{
+  height: 20px;
+  margin-left: 18px;
+}
+.sound , .repeat , .shuffle{
+  opacity: 0.50;
+}

@@ -1,0 +1,86 @@
+.pop-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 55px;
+    width: 715px;
+    margin: -30px 0 0 135px;
+}
+.left{
+    display: flex;
+    width: 400px;
+}
+.profile-icon1{
+    height: 52px;
+    border-radius: 40px;
+}
+.pop-up-info{
+    color: rgb(202, 200, 200);
+    margin: -1px 0 0 8px;
+    line-height: 1px;
+}
+.info-username{
+    font-size: 12px;
+    color: rgb(206, 205, 205);
+}
+.info-text{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+.right{
+    display: flex;
+    width: 200px;
+    align-items: end;
+    align-items: center;
+    margin-right: -153px;
+}
+.more-button{
+    width: 50px;
+    height: 30px;
+    border-radius: 24px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(128, 128, 128, 0.548);
+    font-size: 10px;
+    color: rgb(180, 179, 179);
+    padding-bottom: 6x;
+    margin-right: 18px;
+    font-family: roboto,arial;
+    font-weight: 700;
+    transition: background-color 0.05s , border-color 0.05s;
+}
+.more-button:hover{
+    background-color: rgba(128, 128, 128, 0.548);
+    border-color:  rgba(128, 128, 128, 0);;
+}
+.left-button , .right-button{
+    height: 30px;
+    width: 34px;
+    border-radius:15px ;
+    background-color: rgba(0, 0, 0, 0);
+    margin:3px 0 0 8px;
+    border: 1px solid rgba(128, 128, 128, 0.548);
+}
+.left-icon{
+    height: 14px;
+    padding: 3px 1px 0 0;
+    transition: opacity 0.05s;
+}
+.left-button{
+    opacity: 0.50;
+    margin-right: 6px;
+}
+.left-button:hover{
+    background-color: rgba(128, 128, 128, 0.274);
+}
+.right-icon{
+    height: 14px;
+    padding: 3px 0 0 1px;
+    transition: background-color 0.05s;
+}
+.right-button:hover{
+    background-color: rgba(128, 128, 128, 0.363);
+}
+.more-icon , .left-button , .right-button{
+    margin-bottom: 4px;
+}
